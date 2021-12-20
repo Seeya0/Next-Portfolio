@@ -72,7 +72,7 @@ const SideBar = () => {
                 className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2"
                 onClick={changeTheme}
             >
-                {theme === "light" ? <span>Change Dark theme</span> : <span>Change Light theme</span>}
+                {theme === "light" ? <span>Dark theme</span> : <span>Light theme</span>}
             </button>
         </div>
     )
