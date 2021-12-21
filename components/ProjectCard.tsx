@@ -25,7 +25,7 @@ const ProjectCard: FunctionComponent<{
                 />
                 <p className="my-2 text-center">{name}</p>
 
-                {showDetail === "name" && (
+                {showDetail === name && (
                     <div
                         className="grid md:grid-cols-2 p-2 md:p-10 rounded-lg absolute top-0 left-0 z-10 w-full h-auto gap-12 text-black bg-gray-100 dark:text-white dark:bg-dark-100"
                     >
@@ -69,7 +69,7 @@ const ProjectCard: FunctionComponent<{
                             animate="animate"
                         >
                             <motion.h2 className="mb-3 text-xl font-medium md:text-2xl" variants={fadeInUp}>{name}</motion.h2>
-                            <motion.h3 className="mb-3 font-medium">{description}</motion.h3>
+                            <motion.h3 className="mb-3 font-medium" variants={fadeInUp}>{description}</motion.h3>
                             <motion.div variants={fadeInUp}>
                                 {tags.map((tag) => (
                                     <span
