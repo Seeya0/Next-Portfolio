@@ -23,6 +23,7 @@ const resume = () => {
                     <div>
                         <h5 className="my-2 text-xl font-bold">English Literature</h5>
                         <p className="font-semibold">Nihon University, University of Kent(2014-2018)</p>
+                        <p className="my-3">Jazz age is the best generation</p>
                     </div>
                 </motion.div>
                 <motion.div
