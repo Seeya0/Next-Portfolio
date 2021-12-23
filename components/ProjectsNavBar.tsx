@@ -4,8 +4,8 @@ import { Category } from "../type"
 export const NavItem: FunctionComponent<{
     categoryValue: Category, handleFilterCategory: Function, active: string,
 }> = ({ categoryValue, handleFilterCategory, active }) => {
-    let customClass = "capitalize cursor-pointer hover:text-green";
-    if (active === categoryValue) customClass += " text-green";
+    let customClass = "capitalize cursor-pointer hover:text-beige";
+    if (active === categoryValue) customClass += " text-beige";
 
     return (
         <li className={customClass} onClick={() => handleFilterCategory(categoryValue)}>

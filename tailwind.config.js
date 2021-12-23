@@ -11,6 +11,12 @@ module.exports = {
         green: {
           DEFAULT: "#00f260",
         },
+        beige: {
+          DEFAULT: "#DAD299",
+        },
+        lightGreen: {
+          DEFAULT: "#B0DAB9",
+        },
         dark: {
           DEFAULT: "#010101",
           100: "#0a0b0e",

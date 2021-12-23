@@ -1,8 +1,8 @@
 import { useTheme } from "next-themes"
 import Image from "next/image";
-import topIcon from "../public/images/avatar-icon.png"
+import topIcon from "../public/images/DSC06785.jpg"
 import { GiTie } from 'react-icons/gi'
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
 
 const SideBar = () => {
@@ -19,33 +19,33 @@ const SideBar = () => {
                 alt="avatar"
                 height="128"
                 width="128"
-                className="w-32 h-32 mx-auto rounded-full"
+                className="w-46 h-32 mx-auto rounded-full"
             />
 
             <h3 className="my-4 text-3xl font-medium tracking-wide">
                 Seiya Yoshioka
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full">
-                Web Developer
+                フロントエンジニア
             </p>
             <a
                 className="px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full flex items-center justify-center"
-                href="addresumefilelater"
+                href="public/images/職務経歴書_吉岡誠也_株式会社ヴァージニア御中.pdf"
                 download="name"
             >
-                <GiTie className="w-6 h-6" />Download Resume
+                <GiTie className="w-6 h-6" />履歴書のダウンロード
             </a>
 
             {/* SNS icons */}
-            <div className="flex justify-around w-9/12 my-5 text-green mx-auto md:w-full ">
-                <a href="">
-                    <AiFillFacebook className="w-8 h-8 cursor-pointer" />
-                </a>
-                <a href="">
+            <div className="flex justify-around w-9/12 my-5 text-beige mx-auto md:w-full ">
+                <a href="https://github.com/Seeya0">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
-                    <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
+                <a href="https://www.facebook.com/profile.php?id=100007774248668">
+                    <AiFillFacebook className="w-8 h-8 cursor-pointer" />
+                </a>
+                <a href="https://www.instagram.com/seiya_panda/">
+                    <AiFillInstagram className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>
 
@@ -63,13 +63,13 @@ const SideBar = () => {
 
             {/* Email and Theme */}
             <button
-                className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 my-2 text-white focus:outline-none"
+                className="bg-gradient-to-r from-beige to-lightGreen w-8/12 rounded-full py-2 px-5 my-2 text-white focus:outline-none"
                 onClick={() => window.open("mailto:vinlandtorfin@gmail.com")}
             >
                 Email me
             </button>
             <button
-                className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2"
+                className="bg-gradient-to-r from-beige to-lightGreen w-8/12 rounded-full py-2 px-5 text-white my-2"
                 onClick={changeTheme}
             >
                 {theme === "light" ? <span>Dark theme</span> : <span>Light theme</span>}
