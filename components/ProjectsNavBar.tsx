@@ -22,7 +22,7 @@ const ProjectsNavBar: FunctionComponent<{ handleFilterCategory: Function, active
             <NavItem categoryValue="typescript" {...props} />
             <NavItem categoryValue="node" {...props} />
             <NavItem categoryValue="express" {...props} />
-            <NavItem categoryValue="express" {...props} />
+            <NavItem categoryValue="Next" {...props} />
         </div>
     )
 }

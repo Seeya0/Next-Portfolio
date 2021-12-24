@@ -74,7 +74,7 @@ const ProjectCard: FunctionComponent<{
                                 {tags.map((tag) => (
                                     <span
                                         key={tag}
-                                        className="px-2 py-1 mx-1 my-1 bg-gray-200 dark:bg-dark-200 rounded-sm"
+                                        className="flex flex-wrap justify-center py-1 mx-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-sm"
                                     >
                                         {tag}
                                     </span>

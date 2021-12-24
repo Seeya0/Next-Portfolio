@@ -11,13 +11,13 @@ export const services: Service[] = [
         Icon: RiComputerLine,
         title: "Frontend  Development",
         about:
-            "<b> HTML</b>,<b>CSS</b>   and <b>React.js</b>を使用してUIに考慮し、レスポンシブなSPAを作成します。Next.jsを使用してSSRやSSGのサイトを作ることもできます！",
+            "<b> HTML</b>,<b>CSS</b>、<b>React.js</b>を使用してレスポンシブなSPAを作成します。Next.jsを用いてSSRやSSGのサイト作成も可能です。",
     },
     {
         Icon: FaServer,
         title: "Backend  Development",
         about:
-            "<b>Express </b>や<b>Django </b>などのフレームワークと、apiを使用したバックエンドの構築をすることができます。FirebaseやMogoDBを使ってバックエンドを実装することも可能です。",
+            "<b>Express </b>や<b>Django </b>などのフレームワークと、apiを使用したバックエンドの構築をすることができます。FirebaseやMogoDBも使用できます。",
     },
     {
         Icon: AiOutlineApi,
@@ -28,19 +28,19 @@ export const services: Service[] = [
     {
         Icon: MdDeveloperMode,
         title: "Competitive Coder",
-        about: "日々コードを書いて技術を高めています。",
+        about: "日々個人でコードを書いて開発をして技術を高めています。",
     },
     {
         Icon: AiOutlineAntDesign,
         title: "UI/UX designer",
         about:
-            "<b>Figma</b>を使用してUI/UXのデザインをすることができます。現職ではユーザビリティを考えたアプリの開発をデザイナーと一緒に取り組んでいます。",
+            "現職ではユーザビリティを考えたアプリの開発をデザイナーと一緒に取り組んでいます。",
     },
     {
         Icon: RiComputerLine,
         title: "Communication Skill",
         about:
-            "人事を３年間やっていましたので、人との会話が得意です。情報を社内に伝える際や、ミーティングの場で相手に伝わり易い説明や本質を得たファシリテーションをすることができます。",
+            "３年間の人事経験から、情報を社内に伝える際や、ミーティングの場で伝わり易い説明や本質を得たファシリテーションができます。",
     },
 ]
 
@@ -57,13 +57,13 @@ export const languages: MySkill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "Html/Css",
+        name: "Html",
         level: "90",
     },
     {
         Icon: BsCircleFill,
-        name: "TaleWind",
-        level: "60",
+        name: "CSS",
+        level: "90",
     },
     {
         Icon: BsCircleFill,
@@ -81,22 +81,22 @@ export const tools: MySkill[] = [
     {
         Icon: BsCircleFill,
         name: "Figma",
-        level: "80",
+        level: "50",
     },
     {
         Icon: BsCircleFill,
-        name: "Gsuite",
-        level: "60",
+        name: "TaleWind",
+        level: "70",
     },
     {
         Icon: BsCircleFill,
-        name: "Excel",
-        level: "45",
+        name: "BootStrap",
+        level: "75",
     },
     {
         Icon: BsCircleFill,
-        name: "Google analytics",
-        level: "45",
+        name: "Material UI",
+        level: "70",
     },
     {
         Icon: BsCircleFill,
@@ -204,5 +204,25 @@ export const projects: MyProject[] = [
         description:
             "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
         tags: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    },
+    {
+        name: "Film DB",
+        image_path: "/images/filmdb.png",
+        deployed_url: "https://film-db-next.vercel.app/",
+        github_url: "https://github.com/Seeya0/FilmDB_Next",
+        category: ["Next", "node"],
+        description:
+            "映画やドラマをカテゴリー別に閲覧することができます。検索をすることも可能です。",
+        tags: ["Next", "API", "Sass", "Material UI", "Express"],
+    },
+    {
+        name: "Vegi Container",
+        image_path: "/images/vegicontainer.png",
+        deployed_url: "https://vegicontainer-demo.herokuapp.com/#/",
+        github_url: "https://github.com/Seeya0/VegiContainer",
+        category: ["react", "node"],
+        description:
+            "傷がついたB級品の野菜や果物を販売するECサイトです",
+        tags: ["React", "API", "Redux", "Bootstrap", "Django"],
     },
 ]

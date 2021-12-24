@@ -22,4 +22,4 @@ export interface MyProject {
     tags: string[],
 }
 
-export type Category = "react" | "node" | "express" | "mongo" | "typescript" | "all"
+export type Category = "react" | "node" | "express" | "mongo" | "typescript" | "all" | "Next"

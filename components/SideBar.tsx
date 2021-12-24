@@ -4,12 +4,18 @@ import topIcon from "../public/images/DSC06785.jpg"
 import { GiTie } from 'react-icons/gi'
 import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
+import { useState } from "react";
 
 const SideBar = () => {
     const { theme, setTheme } = useTheme();
+    const [sitelanguage, setSiteLanguage] = useState("English")
 
     const changeTheme = () => {
         setTheme(theme === "light" ? "dark" : "light")
+    }
+
+    const changeSiteLanguage = () => {
+        setSiteLanguage(sitelanguage === "English" ? "Japanese" : "English")
     }
 
     return (
@@ -73,6 +79,12 @@ const SideBar = () => {
                 onClick={changeTheme}
             >
                 {theme === "light" ? <span>Dark theme</span> : <span>Light theme</span>}
+            </button>
+            <button
+                className="bg-gradient-to-r from-green to-blue-400 w-8/12 rounded-full py-2 px-5 text-white my-2"
+                onClick={changeSiteLanguage}
+            >
+                {sitelanguage === "English" ? <span>Japanese</span> : <span>English</span>}
             </button>
         </div>
     )

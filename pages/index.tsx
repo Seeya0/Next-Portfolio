@@ -14,10 +14,9 @@ const index = () => {
             exit="exit"
         >
             <h5 className="my-3 font-medium">
-                ヘルスケア系の企業でフロントエンドの開発に携わっています。
+                ヘルスケア企業でフロントエンドの開発に携わっています。
                 仕事ではReact.jsを主に使用して、Webアプリやサイトを作っています。
                 個人開発ではNext.jsを書いてアプリの開発をしており、バックエンド側（node.js）の開発も行っています。
-                フロントもバックも書けるエンジニアになりたいです！
             </h5>
             <div
                 className="p-4 mt-5 bg-gray-400 dark:bg-dark-100 flex-grow"
