@@ -48,7 +48,7 @@ export default index
 
 
 // export const getServerSideProps = async (context: GetServerSidePropsContext) => {
-//     const res = await fetch("http://localhost:3000/api/services")
+//     const res = await fetch("https://next-portfolio-lc6i8te88-seeya0.vercel.app/api/services")
 //     const data = await res.json()
 
 //     return {
@@ -60,7 +60,7 @@ export default index
 // }
 
 export const getStaticProps = async (context: GetStaticPropsContext) => {
-    const res = await fetch("http://localhost:3000/api/services")
+    const res = await fetch("https://next-portfolio-lc6i8te88-seeya0.vercel.app/api/services")
     const data = await res.json()
 
     return {
