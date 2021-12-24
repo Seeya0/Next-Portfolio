@@ -23,7 +23,7 @@ const resume = () => {
                     <div>
                         <h5 className="my-2 text-xl font-bold">英文学科</h5>
                         <p className="font-semibold">日本大学, University of Kent(2014-2018)</p>
-                        <p className="my-3">ジャズエイジと世界文学の研究をしていました</p>
+                        <p className="my-3">海外の大学に留学をしていたため、ビジネスレベルの英語を使えます</p>
                     </div>
                 </motion.div>
                 <motion.div
