@@ -15,7 +15,7 @@ const NavBar = () => {
 
     return (
         <div className="flex justify-between px-5 py-3 my-3">
-            <span className="font-bold text-green dark:text-white text-xl border-b-4 border-green md:text-2xl">
+            <span className="font-bold text-beige dark:text-white text-xl border-b-4 border-beige md:text-2xl">
                 {activeItem}
             </span>
             <div className="dark:text-white text-lg flex space-x-5">

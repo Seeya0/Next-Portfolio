@@ -19,11 +19,11 @@ const resume = () => {
                     initial="initial"
                     animate="animate"
                 >
-                    <h5 className="my-3 text-2xl font-bold">Education</h5>
+                    <h5 className="my-3 text-2xl font-bold">学歴</h5>
                     <div>
-                        <h5 className="my-2 text-xl font-bold">English Literature</h5>
-                        <p className="font-semibold">Nihon University, University of Kent(2014-2018)</p>
-                        <p className="my-3">Jazz age is the best generation</p>
+                        <h5 className="my-2 text-xl font-bold">英文学科</h5>
+                        <p className="font-semibold">日本大学, University of Kent(2014-2018)</p>
+                        <p className="my-3">ジャズエイジと世界文学の研究をしていました</p>
                     </div>
                 </motion.div>
                 <motion.div
@@ -31,11 +31,11 @@ const resume = () => {
                     initial="initial"
                     animate="animate"
                 >
-                    <h5 className="my-3 text-2xl font-bold">Experience</h5>
+                    <h5 className="my-3 text-2xl font-bold">経歴</h5>
                     <div>
                         <h5 className="my-2 text-xl font-bold">Software Engineer</h5>
                         <p className="font-semibold">HCS (2021 - on)</p>
-                        <p className="my-3">I mainly develope the frontend of software with React.js</p>
+                        <p className="my-3">React.jsを主に使用してSPAの開発をしています。</p>
                     </div>
                 </motion.div>
             </div>

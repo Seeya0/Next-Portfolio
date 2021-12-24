@@ -9,71 +9,71 @@ import { BsCircleFill } from 'react-icons/bs'
 export const services: Service[] = [
     {
         Icon: RiComputerLine,
-        title: "Frontend Development",
+        title: "Frontend  Development",
         about:
-            "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+            "<b> HTML</b>,<b>CSS</b>   and <b>React.js</b>を使用してUIに考慮し、レスポンシブなSPAを作成します。Next.jsを使用してSSRやSSGのサイトを作ることもできます！",
     },
     {
         Icon: FaServer,
         title: "Backend  Development",
         about:
-            "handle database, server, api using <b>Express </b> & other popular frameworks",
+            "<b>Express </b>や<b>Django </b>などのフレームワークと、apiを使用したバックエンドの構築をすることができます。FirebaseやMogoDBを使ってバックエンドを実装することも可能です。",
     },
     {
         Icon: AiOutlineApi,
         title: "API Development",
         about:
-            "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+            "REST APIを用いて<b>django-rest-api</b>  や <b>Node API</b>を使用した開発を行えます。",
     },
     {
         Icon: MdDeveloperMode,
         title: "Competitive Coder",
-        about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+        about: "日々コードを書いて技術を高めています。",
     },
     {
         Icon: AiOutlineAntDesign,
         title: "UI/UX designer",
         about:
-            "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+            "<b>Figma</b>を使用してUI/UXのデザインをすることができます。現職ではユーザビリティを考えたアプリの開発をデザイナーと一緒に取り組んでいます。",
     },
     {
         Icon: RiComputerLine,
-        title: "Whatever",
+        title: "Communication Skill",
         about:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+            "人事を３年間やっていましたので、人との会話が得意です。情報を社内に伝える際や、ミーティングの場で相手に伝わり易い説明や本質を得たファシリテーションをすることができます。",
     },
 ]
 
 export const languages: MySkill[] = [
     {
         Icon: BsCircleFill,
-        name: "Python",
-        level: "45",
+        name: "React",
+        level: "85",
     },
     {
         Icon: BsCircleFill,
         name: "Java Script",
+        level: "75",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Html/Css",
+        level: "90",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "TaleWind",
         level: "60",
     },
     {
         Icon: BsCircleFill,
-        name: "React Native",
-        level: "80",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "React",
-        level: "70",
-    },
-    {
-        Icon: BsCircleFill,
         name: "Django",
-        level: "80",
+        level: "60",
     },
     {
         Icon: BsCircleFill,
-        name: "Bootstrap",
-        level: "80",
+        name: "Python",
+        level: "50",
     },
 ]
 
@@ -81,23 +81,28 @@ export const tools: MySkill[] = [
     {
         Icon: BsCircleFill,
         name: "Figma",
-        level: "85",
+        level: "80",
     },
     {
         Icon: BsCircleFill,
-        name: "Photoshop",
-        level: "45",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "Illustrator",
+        name: "Gsuite",
         level: "60",
     },
     {
         Icon: BsCircleFill,
-        name: "Framer",
+        name: "Excel",
         level: "45",
     },
+    {
+        Icon: BsCircleFill,
+        name: "Google analytics",
+        level: "45",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "WordPress",
+        level: "45",
+    }
 ];
 
 export const projects: MyProject[] = [
