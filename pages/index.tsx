@@ -4,7 +4,7 @@ import { routeAnimation, stagger, fadeInUp } from '../animation'
 import ServiceCard from "../components/ServiceCard"
 import { services } from "../data"
 
-const index = () => {
+const index = ({ endpoint }: { endpoint: any }) => {
     return (
         <motion.div
             className="flex flex-col px-6 pt-1 flex-grow"
@@ -48,7 +48,7 @@ export default index
 
 
 // export const getServerSideProps = async (context: GetServerSidePropsContext) => {
-//     const res = await fetch("https://next-portfolio-lc6i8te88-seeya0.vercel.app/api/services")
+//     const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
 //     const data = await res.json()
 
 //     return {
@@ -60,13 +60,13 @@ export default index
 // }
 
 export const getStaticProps = async (context: GetStaticPropsContext) => {
-    const res = await fetch("https://next-portfolio-lc6i8te88-seeya0.vercel.app/api/services")
-    const data = await res.json()
+    // const res = await fetch(`${process.env.VERCEL_URL}/api/services`)
+    // const data = await res.json()
 
     return {
 
         props: {
-            services: data.services
+            endpoint: process.env.VERCEL_URL
         }
     }
 }
