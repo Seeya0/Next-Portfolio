@@ -35,7 +35,7 @@ const Projects = () => {
             <ProjectsNavBar handleFilterCategory={handleFilterCategory} active={active} />
 
             <motion.div
-                className="grid grid-cols-12 gap-4 my-3 relative"
+                className="grid md:grid-cols-12 gap-4 my-3 relative"
                 variants={stagger}
                 initial="initial"
                 animate="animate"
