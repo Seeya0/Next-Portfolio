@@ -15,8 +15,8 @@ const index = ({ endpoint }: { endpoint: any }) => {
         >
             <h5 className="my-3 font-medium">
                 ヘルスケア企業でフロントエンドの開発に携わっています。
-                仕事ではReact.jsを主に使用して、Webアプリやサイトを作っています。
-                個人開発ではNext.jsを書いてアプリの開発をしており、バックエンド側（node.js）の開発も行っています。
+                仕事ではReact.js, Html/Cssを主に使用。Webアプリやサイトを作っています。
+                個人開発ではNext.js、React.jsを使用。node.jsでバックエンドの開発も行っています。
             </h5>
             <div
                 className="p-4 mt-5 bg-gray-400 dark:bg-dark-100 flex-grow"

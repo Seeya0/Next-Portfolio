@@ -34,7 +34,7 @@ export const services: Service[] = [
         Icon: AiOutlineAntDesign,
         title: "UI/UX designer",
         about:
-            "現職ではユーザビリティを考えたアプリの開発をデザイナーと一緒に取り組んでいます。",
+            "現職ではユーザビリティを考えたアプリやサイトの開発をFigmaを使用してデザイナーと一緒に取り組んでいます。",
     },
     {
         Icon: RiComputerLine,
@@ -52,7 +52,7 @@ export const languages: MySkill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "Java Script",
+        name: "JavaScript",
         level: "75",
     },
     {
@@ -67,7 +67,7 @@ export const languages: MySkill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "Django",
+        name: "TypeScript",
         level: "60",
     },
     {
@@ -81,12 +81,12 @@ export const tools: MySkill[] = [
     {
         Icon: BsCircleFill,
         name: "Figma",
-        level: "50",
+        level: "85",
     },
     {
         Icon: BsCircleFill,
         name: "TaleWind",
-        level: "70",
+        level: "80",
     },
     {
         Icon: BsCircleFill,
@@ -107,103 +107,14 @@ export const tools: MySkill[] = [
 
 export const projects: MyProject[] = [
     {
-        name: "COVID Tracker",
+        name: "Moment",
+        image_path: "/images/moment.png",
+        deployed_url: "https://moment-with-you.netlify.app/login",
+        github_url: "https://github.com/Seeya0/Moment_SNSapp",
+        category: ["react", "node", "express"],
         description:
-            "This app shows a statistical view about corona virus over the world",
-        image_path: "/images/covid.jpg",
-        deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-        github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-        category: ["react"],
-        tags: ["React", "Chart.js", "Material UI"],
-    },
-    {
-        name: "Algorithm Visualizer",
-        image_path: "/images/algoVisual.png",
-        deployed_url: "https://visual-algorithm.web.app/",
-        github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-        category: ["react"],
-        description:
-            "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-        tags: ["React", "firebase", "Framer Motion"],
-    },
-
-    {
-        name: "Dev Talks",
-        image_path: "/images/dev.jpg",
-        deployed_url: "https://dev-talks.herokuapp.com/",
-        github_url: "https://github.com/Dey-Sumit/Dev-talks",
-        category: ["node", "mongo", "react"],
-        description:
-            "Social Media app for developers who can share project,create posts,etc...",
-        tags: [
-            "React",
-            "Redux",
-            "Node",
-            "Express",
-            "Mongo",
-            "REST API",
-            "Bootstrap",
-        ],
-    },
-
-    {
-        name: "Realtime Chat App",
-        image_path: "/images/chatapp.jpg",
-        deployed_url: "https://sumit-chat.netlify.app/",
-        github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-        category: ["node", "react"],
-        description:
-            "Basic Realtime Chat App where one can create a room can talk to each other",
-        tags: ["React", "Node", "Express", "Socket", "Bootstrap"],
-    },
-
-    {
-        name: "Tweeter Clone",
-        image_path: "/images/tweetme.jpg",
-        deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-        github_url: "https://github.com/Dey-Sumit/tweetme",
-        category: ["react"],
-        description:
-            "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-        tags: ["React", "Django", "Django REST API"],
-    },
-
-    {
-        name: "Color Classification using tf.js",
-        image_path: "/images/color.jpg",
-        deployed_url: "!#",
-        github_url: "https://github.com/Dey-Sumit/color-classification",
-        category: ["express"],
-        description:
-            "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-        tags: ["Express", "TensorFlow.js", "Vanilla js"],
-    },
-    {
-        name: "YouTube using YouTube ",
-        image_path: "/images/youtubeClone.png",
-        deployed_url: "https://not-utube.web.app/",
-        github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-        category: ["express"],
-        description:
-            'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-        tags: [
-            "React",
-            "Redux",
-            "Firebase Auth",
-            "YouTube API",
-            "Sass",
-            "Bootstrap",
-        ],
-    },
-    {
-        name: "Football App",
-        image_path: "/images/football.png",
-        deployed_url: "https://o-my-goal.web.app/",
-        github_url: "https://github.com/Dey-Sumit/football-app",
-        category: ["react"],
-        description:
-            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-        tags: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+            "写真をシェアして瞬間をみんなで共有するアプリです",
+        tags: ["React", "API", "Sanity", "TailWind", "Express", "SNS"],
     },
     {
         name: "Film DB",
