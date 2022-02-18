@@ -29,6 +29,7 @@ const index = ({ endpoint }: { endpoint: any }) => {
                     animate="animate"
                     className="grid gap-6 md:grid-cols-2"
                 >
+                    {/* dataから情報をもってきてmapで回している */}
                     {services.map(service => (
                         <motion.div
                             variants={fadeInUp}

@@ -4,6 +4,7 @@ import { Category } from "../type"
 export const NavItem: FunctionComponent<{
     categoryValue: Category, handleFilterCategory: Function, active: string,
 }> = ({ categoryValue, handleFilterCategory, active }) => {
+    //プロジェクトが選ばれた際のカスタムクラス
     let customClass = "capitalize cursor-pointer hover:text-beige";
     if (active === categoryValue) customClass += " text-beige";
 

@@ -8,6 +8,8 @@ const NavItem: FunctionComponent<{
     route: string
 }> = ({ activeItem, setActiveItem, name, route }) => {
     return (
+        //現在のactiveItemと選択されたもの(name)が異なる場合、選択されたものをActiveItemに入れる
+        //詳細な内容はprojects.tsxを見てください
         activeItem !== name ? (
             <Link href={route}>
                 <a>
