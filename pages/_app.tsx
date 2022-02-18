@@ -7,6 +7,7 @@ import { AnimatePresence } from 'framer-motion'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+    //ダークモードを使用するため、ThemeProviderで全体を囲んでいる
     <ThemeProvider attribute='class'>
       <div className='grid grid-cols-12 gap-6 px-5 my-32 sm:px-20 md:px-32 lg:px-48'>
         <div className='lg:col-span-3 col-span-12 bg-[#FFFAF0] dark:bg-dark-500 rounded-2xl p-4 text-center overflow-hidden shadow-custom-light dark:shadow-custom-dark'>

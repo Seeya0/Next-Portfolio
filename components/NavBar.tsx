@@ -7,6 +7,7 @@ const NavBar = () => {
     const [activeItem, setActiveItem] = useState<string>("");
     const { pathname } = useRouter();
 
+    //パラメーターによってactiveItemのstateを変えている
     useEffect(() => {
         if (pathname === "/") setActiveItem("About")
         if (pathname === "/projects") setActiveItem("Projects")
@@ -19,6 +20,7 @@ const NavBar = () => {
                 {activeItem}
             </span>
             <div className="dark:text-white text-lg flex space-x-5">
+                {/* 選ばれているstateによってurl末尾を変更して、出す内容を分けている */}
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="About" route="/" />
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Projects" route="/projects" />
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="Resume" route="/resume" />

@@ -11,6 +11,7 @@ const Projects = () => {
     const [active, setActive] = useState("all");
     const [showDetail, setShowDetail] = useState<string | null>(null);
 
+    //カテゴリーが初期値（all）の場合は全てのプロジェクト、選ばれている場合は該当のプロジェクトを出す
     const handleFilterCategory = (category: Category) => {
         if (category === "all") {
             setProjects(projectsData);
